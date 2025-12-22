@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jaehyeon Moon</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #111827;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    h1 { font-size: 36px; margin-bottom: 4px; }
+    h2 { margin-top: 36px; border-bottom: 1px solid #e5e7eb; }
+    p { line-height: 1.7; }
+    ul { padding-left: 18px; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { color: #6b7280; }
+    .btn {
+      display: inline-block;
+      padding: 8px 14px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      margin-right: 8px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Jaehyeon Moon</h1>
+    <div class="meta">
+      Combined M.S. & Ph.D. Student, Yonsei University<br/>
+      Email: <a href="mailto:jhmn@yonsei.ac.kr">jhmn@yonsei.ac.kr</a>
+    </div>
+
+    <p>
+      I am a combined M.S. & Ph.D. student at Yonsei University, advised by Prof. Bumsub Ham.
+      My research focuses on network quantization and generative models.
+    </p>
+
+    <a class="btn" href="cv.pdf" target="_blank">📄 CV (PDF)</a>
+    <a class="btn" href="https://github.com/JaeHyeonMoon" target="_blank">GitHub</a>
+
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Network quantization</li>
+      <li>Generative models</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <b>Yonsei University</b>, Seoul, Korea<br/>
+        Combined M.S. & Ph.D. in Electrical and Electronic Engineering<br/>
+        Advisor: Bumsub Ham (2020 – Present)
+      </li>
+      <li>
+        <b>Yonsei University</b>, Seoul, Korea<br/>
+        B.S. in Electrical and Electronic Engineering (2016 – 2020)
+      </li>
+    </ul>
+
+    <h2>Publications</h2>
+    <ul>
+      <li>
+        <b>Shift-and-Sum Quantization for Visual Autoregressive Models</b><br/>
+        ICLR 2026 (submitted)
+      </li>
+      <li>
+        Token-Based Dynamic Bit-Width Assignment for ViT Quantization<br/>
+        Pattern Recognition, 2025
+      </li>
+      <li>
+        Instance-Aware Group Quantization for Vision Transformers<br/>
+        CVPR 2024
+      </li>
+    </ul>
+
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        Research Engineer, Articron (TIPS Project)<br/>
+        Jul. 2023 – Jun. 2026
+      </li>
+    </ul>
+
+    <h2>Patents & Awards</h2>
+    <p>
+      See full list in <a href="cv.pdf" target="_blank">CV (PDF)</a>.
+    </p>
+
+    <footer class="meta" style="margin-top:40px;">
+      © <span id="y"></span> Jaehyeon Moon
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
