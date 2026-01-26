@@ -1,0 +1,143 @@
+% Compile with pdfLaTeX
+\documentclass[11pt]{article}
+
+%------------------ PACKAGES (pdfLaTeX-safe) ------------------
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{kotex}
+\usepackage{makecell}
+\renewcommand\cellalign{tl}   % top-left align
+\renewcommand\cellgape{}      % remove extra vertical gap
+% Load hyperref LAST
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+%------------------ COLORS ------------------
+\definecolor{Accent}{HTML}{1F7A8C}
+\definecolor{Dark}{HTML}{12343B}
+\definecolor{Muted}{HTML}{666666}
+
+%------------------ SECTION FORMATTING ------------------
+\titleformat{\section}{\Large\bfseries\color{Dark}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+\titleformat{\subsection}{\normalsize\bfseries\color{Dark}}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{6pt}{4pt}
+
+%------------------ ENTRY MACROS ------------------
+% role, org, place, dates, bullets
+\newcommand{\cventry}[8]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}p{2.5cm}X@{}}
+    \textcolor{Muted}{#1} &
+    \begin{minipage}[t]{\linewidth}
+      \textbf{#2}\par
+      \textit{#3}\par
+      \textit{#4}\par
+      \if\relax\detokenize{#5}\relax\else \textcolor{Muted}{#5}\par\fi
+      \if\relax\detokenize{#6}\relax\else \textcolor{Muted}{#6}\par\fi
+      \if\relax\detokenize{#7}\relax\else \textcolor{Muted}{#7}\fi
+    \end{minipage} \\
+  \end{tabularx}%
+  \if\relax\detokenize{#8}\relax\else #8\fi
+  \vspace{6pt}%
+}
+
+% one-line label/value
+\newcommand{\cvline}[2]{\noindent\textbf{#1}\hfill #2\\}
+
+%------------------ DOCUMENT ------------------
+\begin{document}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+%------------------ HEADER ------------------
+{\Huge\bfseries Jaehyeon Moon}\\[2pt]
+{\large\color{Accent}Yonsei University}\\[6pt]
+{\small\color{Muted}Combined M.S. \& Ph.D. student}
+
+\vspace{6pt}\hrule\vspace{8pt}
+
+%------------------ CONTACT ------------------
+\cvline{Email}{jhmn@yonsei.ac.kr}
+\cvline{Website}{\href{https://github.com/JaeHyeonMoon}{https://github.com/JaeHyeonMoon}}
+\cvline{Location}{50, Yonsei-ro, Seodaemun-gu, Seoul, Korea, 03722}
+
+\section*{Research Interests}
+\hrule
+\vspace{6pt}
+\begin{itemize}[left=0pt,itemsep=0pt]
+    \item Deep learning models
+    \item Network compression
+\end{itemize}
+
+%------------------ SECTIONS ------------------
+\section*{Education}
+\hrule
+\vspace{6pt}
+\cventry{\makecell[l]{Mar. 2020 --\\ Present}}{Yonsei University}{School of Electrical and Electronic Engineering}{Seoul, Korea}{Advisor: Bumsub Ham}{Combined M.S. \& Ph.D. student}{}{}
+\vspace{10pt}
+
+\cventry{\makecell[l]{Mar. 2016 --\\ Feb. 2020}}{Yonsei University}{School of Electrical and Electronic Engineering}{Seoul, Korea}{}{B.S. in Electrical and Electronic Engineering}{GPA: 4.06 / 4.30 (Magna Cum Laude)}{}
+
+\section*{Publications}
+\hrule
+\vspace{6pt}
+\begin{itemize}[left=0pt,itemsep=4pt,topsep=2pt]
+  \item {\bf{Jaehyeon Moon}},\ Bumsub Ham,\ "Shift-and-Sum Quantization for Visual Autoregressive Models",\ ICLR, 2026.
+  \item Dohyung Kim$^{*}$,\ {\bf{Jaehyeon Moon}}$^{*}$,\ Junghyup Lee,\ Geon Lee,\ Jeimin Jeon,\ Bumsub Ham,\ "Token-Based Dynamic Bit-Width Assignment for ViT Quantization",\ Pattern Recognition,\ 2025.\newline $^{*}$Equal contribution.
+  \item {\bf{Jaehyeon Moon}},\ Dohyung Kim,\ Junyong Cheon,\ Bumsub Ham,\ "Instance-Aware Group Quantization for Vision Transformers",\ CVPR,\ 2024.
+  \item Seunghoon Lee$^{*}$,\ Jeongwoo Choi$^{*}$,\ Byunggwan Son,\ {\bf{Jaehyeon Moon}},\ Jeimin Jeon,\ Bumsub Ham,\ "AccuQuant: Simulating Multiple Denoising steps for Quantizing Diffusion Models",\ NeurIPS,\ 2025. $^{*}$Equal contribution.
+  \item Dohyung Kim,\ Junghyup Lee,\ Jeimin Jeon,\ {\bf{Jaehyeon Moon}},\ Bumsub Ham,\ "Toward INT4 Fixed-Point Training via Exploring Quantization Error for Gradients",\ ECCV,\ 2024.
+\end{itemize}
+
+\newpage
+\section*{Experiences}
+\hrule
+\hrule
+\vspace{6pt}
+\cventry{\makecell[l]{Aug. 2023 --\\ Present}}{TIPS project}{Research engineer, Articron}{}{}{Developed pruning and quantization algorithms to deploy deep neural networks on compute-in-memory (CIM) chips under the TIPS startup R\&D program}{}{}
+
+\section*{Patents}
+\hrule
+\vspace{6pt}
+\begin{itemize}[left=0pt,itemsep=4pt,topsep=2pt]
+  \item 함범섭, {\bf{문재현}}, 김도형, 전준용, "인공 신경망을 위한 양자화 장치와 방법 및 이를 구비하는 이미지 처리 장치", US, 18/456,020
+  \item 함범섭, 김도형, 이중협, {\bf{문재현}}, 이건, 전제민, "비전 트랜스포머를 위한 토큰 양자화 장치 및 방법", KR-Application No. 10-2024-0137421
+  \item 함범섭, 김도형, 이중협, 전제민, {\bf{문재현}}, "인공 신경망을 위한 양자화 장치 및 방법", KR-Application No. 10-2023-0116857
+  \item 함범섭, {\bf{문재현}}, 김도형, 전준용, "인공 신경망을 위한 양자화 장치와 방법 및 이를 구비하는 이미지 처리 장치", KR-Application No. 10-2023-0072090
+\end{itemize}
+\vspace{6pt}
+
+% ------------------ Experience ------------------
+% \section*{Experience}
+% \cventry{Year -- Year}{Position}{Company/Organization}{Location}{Key Achievements / Summary}{%
+%   \begin{itemize}[left=0pt,itemsep=3pt,topsep=4pt]
+%     \item First responsibility or achievement
+%     \item Second responsibility or achievement
+%   \end{itemize}
+% }
+
+\section*{Awards \& Scholarships}
+\hrule
+\vspace{6pt}
+\begin{itemize}[left=0pt,itemsep=4pt]
+  \item 국가우수장학금(이공계), 과학기술정보통신부, Republic of Korea (Sep. 2018 -- Feb. 2020)
+\end{itemize}
+
+% \section*{Skills}
+% \begin{itemize}[left=0pt,itemsep=3pt]
+%   \item Skill 1 \hfill Advanced
+%   \item Skill 2 \hfill Intermediate
+%   \item Skill 3 \hfill Intermediate
+% \end{itemize}
+
+% \section*{References}
+% Available upon request.
+
+\end{document}
