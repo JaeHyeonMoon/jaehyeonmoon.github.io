@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  24 APR 2026 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  24 APR 2026 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/data/website/jaehyeonmoon.github.io/cv/cv.tex
-(/data/website/jaehyeonmoon.github.io/cv/cv.tex
+**/data/website/jaehyeonmoon.github.io/cv/cv_eng.tex
+(/data/website/jaehyeonmoon.github.io/cv/cv_eng.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -321,32 +321,32 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count195
 \l__pdf_internal_box=\box49
-) (/data/website/jaehyeonmoon.github.io/cv/cv.aux)
-\openout1 = `cv.aux'.
+) (/data/website/jaehyeonmoon.github.io/cv/cv_eng.aux)
+\openout1 = `cv_eng.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 53.
-LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 54.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 54.
  (/usr/share/texlive/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 53.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 54.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -404,7 +404,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 53.
+Package hyperref Info: Link coloring ON on input line 54.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -414,47 +414,47 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count268
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
- (/data/website/jaehyeonmoon.github.io/cv/cv.out) (/data/website/jaehyeonmoon.github.io/cv/cv.out)
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
+ (/data/website/jaehyeonmoon.github.io/cv/cv_eng.out) (/data/website/jaehyeonmoon.github.io/cv/cv_eng.out)
 \@outlinefile=\write3
-\openout3 = `cv.out'.
+\openout3 = `cv_eng.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 73.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 74.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd) (/usr/share/texmf/tex/latex/lm/omllmm.fd) (/usr/share/texmf/tex/latex/lm/omslmsy.fd) (/usr/share/texmf/tex/latex/lm/omxlmex.fd) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
- (/data/website/jaehyeonmoon.github.io/cv/cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
-Package rerunfilecheck Info: File `cv.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+ (/data/website/jaehyeonmoon.github.io/cv/cv_eng.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
+Package rerunfilecheck Info: File `cv_eng.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 7724 strings out of 481239
- 116003 string characters out of 5920377
- 393294 words of memory out of 5000000
- 22777 multiletter control sequences out of 15000+600000
- 588506 words of font info for 97 fonts, out of 8000000 for 9000
+ 7617 strings out of 481239
+ 114187 string characters out of 5920377
+ 394303 words of memory out of 5000000
+ 22721 multiletter control sequences out of 15000+600000
+ 573040 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,16n,37p,314b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb>
-Output written on /data/website/jaehyeonmoon.github.io/cv/cv.pdf (2 pages, 2000389 bytes).
+ 34i,16n,37p,370b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on /data/website/jaehyeonmoon.github.io/cv/cv_eng.pdf (2 pages, 130237 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
+ 47 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
