@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  19 OCT 2026 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  19 OCT 2026 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -429,32 +429,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--70
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 74.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd) (/usr/share/texmf/tex/latex/lm/omllmm.fd) (/usr/share/texmf/tex/latex/lm/omslmsy.fd) (/usr/share/texmf/tex/latex/lm/omxlmex.fd) [1
+) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd) (/usr/share/texmf/tex/latex/lm/omllmm.fd) (/usr/share/texmf/tex/latex/lm/omslmsy.fd) (/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 96.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 96.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
  (/data/website/jaehyeonmoon.github.io/cv/cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 7618 strings out of 481239
- 114160 string characters out of 5920377
+ 7634 strings out of 481239
+ 114323 string characters out of 5920377
  395299 words of memory out of 5000000
- 22722 multiletter control sequences out of 15000+600000
- 573040 words of font info for 46 fonts, out of 8000000 for 9000
+ 22731 multiletter control sequences out of 15000+600000
+ 583224 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,16n,37p,366b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on /data/website/jaehyeonmoon.github.io/cv/cv.pdf (2 pages, 133192 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on /data/website/jaehyeonmoon.github.io/cv/cv.pdf (2 pages, 158753 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
