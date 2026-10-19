@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  6 OCT 2026 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.17)  19 OCT 2026 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv_eng.tex
-(./cv_eng.tex
+**cv.tex
+(./cv.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -373,8 +373,8 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count195
 \l__pdf_internal_box=\box49
 )
-(./cv_eng.aux)
-\openout1 = `cv_eng.aux'.
+(./cv.aux)
+\openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -393,8 +393,7 @@ LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 54.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
 ne 54.
-
-(/usr/share/texlive/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
 LaTeX Font Info:    ... okay on input line 54.
@@ -480,9 +479,9 @@ LaTeX Info: Redefining \ref on input line 54.
 LaTeX Info: Redefining \pageref on input line 54.
 LaTeX Info: Redefining \nameref on input line 54.
 
-(./cv_eng.out) (./cv_eng.out)
+(./cv.out) (./cv.out)
 \@outlinefile=\write3
-\openout3 = `cv_eng.out'.
+\openout3 = `cv.out'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--70
@@ -500,31 +499,31 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
- (./cv_eng.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
-Package rerunfilecheck Info: File `cv_eng.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+ (./cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
+Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
  ) 
 Here is how much of TeX's memory you used:
  7616 strings out of 481239
- 113677 string characters out of 5920377
- 394303 words of memory out of 5000000
+ 113617 string characters out of 5920377
+ 394299 words of memory out of 5000000
  22721 multiletter control sequences out of 15000+600000
  573040 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,16n,37p,330b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,16n,37p,326b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/shar
 e/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on cv_eng.pdf (2 pages, 131963 bytes).
+Output written on cv.pdf (2 pages, 132472 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
