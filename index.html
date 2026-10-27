@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Jaehyeon Moon</title>
+  <style>
+    body{
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      margin: 0;
+      background: #ffffff;
+      color: #111827;
+      font-size: 18px;
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    h1 { font-size: 36px; margin-bottom: 4px; }
+    h2 { margin-top: 36px; border-bottom: 1px solid #e5e7eb; }
+    p { line-height: 1.7; }
+    ul { padding-left: 18px; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { color: #6b7280; }
+    .btn {
+      display: inline-block;
+      padding: 8px 14px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      margin-right: 8px;
+      font-size: 14px;
+    }
+    .header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 32px;
+    }
+    .header-text {
+      flex: 1;
+    }
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 1px solid #e5e7eb;
+    }
+    ul {
+      margin-top: 12px;
+    }
+    li {
+      margin-bottom: 18px;
+    }
+    .venue{
+      margin-top: 6px;
+      font-size: 18px;     /* 기존 22px는 너무 큼 */
+      font-weight: 700;
+    }
+    .venue-conf {
+      color: #2563EB;        /* skyblue */
+    }
+    .venue-journal {
+      color: #2563EB;        /* skyblue */
+    }
+    .pub-note {
+      font-size: 0.9em;
+      color: #374151;
+      margin-top: 6px;
+      margin-bottom: 18px;
+    }
+    li > ul {
+      margin-top: 6px;        /* 상단 간격 줄이기 */
+      margin-bottom: 6px;
+    }
+    li > ul > li {
+      margin-bottom: 4px;     /* sub-bullet 간 간격 */
+    }
+    .pub-item{
+      display: flex;
+      gap: 22px;
+      align-items: flex-start;
+      padding: 18px 0;                /* 위아래 일정 간격 */
+      border-bottom: 1px solid #f1f5f9; /* 아주 옅은 divider */
+    }
+    .pub-thumb{
+      width: 240px;
+      flex: 0 0 240px;
+    }
+    .pub-thumb img{
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+      background: #ffffff;             /* 페이지와 같은 흰색 */
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+    }
+    .pub-body{
+      flex: 1;
+      min-width: 0;                  /* 긴 텍스트 줄바꿈 안정화 */
+    }
+    .pub-body a {
+      color: inherit;          /* 부모 색상 그대로 사용 (파란색 제거) */
+      text-decoration: none;   /* 밑줄 제거 */
+    }
+    .pub-body b{
+      font-size: 20px;
+      letter-spacing: -0.01em;
+    }
+    .pub-authors{
+      margin-top: 4px;
+      color: #111827;
+    }
+    /* 기존 li 마진은 pub-item이 담당하므로 줄이기 */
+    .pub-list{
+      padding-left: 0;
+      margin-top: 16px;
+    }
+    .pub-list > li {
+      list-style: none;  /* ✅ 불릿 제거 */
+      margin-bottom: 0;  /* 간격은 .pub-item padding이 담당 */
+      padding-left: 0;
+    }
+    .pub-list > li:last-child .pub-item{
+      border-bottom: none;
+    }
+    /* 모바일에서는 위아래로 쌓이도록 */
+    @media (max-width: 760px){
+      .pub-item{
+        flex-direction: column;
+      }
+      .pub-thumb{
+        width: 100%;
+        flex: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="header-text">
+        <h1>Jaehyeon Moon</h1>
+        <div class="meta">
+          Combined M.S. & Ph.D. Student, Yonsei University<br/>
+          Email: <a href="mailto:jhmn@yonsei.ac.kr">jhmn@yonsei.ac.kr</a>
+        </div>
+        <p>
+          I am a combined M.S. & Ph.D. student at Yonsei University, advised by Prof. Bumsub Ham.<br/>
+	        My research focuses on <b>model quantization</b> and <b>token compression</b> for efficient inference.
+        </p>
+      </div>
+    
+      <!-- Profile image -->
+      <img
+        src="./fig/jaehyeon.jpg"
+        alt="Profile photo of Jaehyeon Moon"
+        class="profile-img"
+      />
+    </div>
+
+    <a class="btn" href="./cv/cv.pdf" target="_blank">📄 CV </a>
+    <a class="btn" href="https://github.com/JaeHyeonMoon" target="_blank">GitHub</a>
+    <a class="btn" href="https://scholar.google.com/citations?user=eNI8LVcAAAAJ&hl=ko" target="_blank">Google Scholar</a>
+
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <b>Yonsei University</b>, Seoul, Korea<br/>
+        Combined M.S. & Ph.D. in Electrical and Electronic Engineering<br/>
+        Advisor: Bumsub Ham<br/>
+        <i>Mar. 2020 – Present</i>
+      </li>
+      
+      <li>
+        <b>Yonsei University</b>, Seoul, Korea<br/>
+        B.S. in Electrical and Electronic Engineering<br/>
+        Magna Cum Laude (GPA: 4.06 / 4.30)<br/>
+        <i>Mar. 2016 – Feb. 2020</i>
+      </li>
+    </ul>
+
+    <h2>Publications<br/></h2>
+    <h3>First Author</h3>
+    <ul class="pub-list">
+      <li>
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <img src="./fig/shift_and_sum.png" alt="Shift-and-Sum teaser">
+          </div>
+    
+          <div class="pub-body">
+            <a href="https://cvlab.yonsei.ac.kr/projects/Shift-and-Sum/">
+            <b>Shift-and-Sum Quantization for Visual Autoregressive Models</b></a><br/>
+            <div class="pub-authors"><b>Jaehyeon Moon</b> and Bumsub Ham<br/></div>
+            <div class="venue venue-conf">ICLR 2026</div>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <img src="./fig/tmpq.png" alt="TMPQ teaser">
+          </div>
+    
+          <div class="pub-body">
+            <a href="https://www.sciencedirect.com/science/article/pii/S0031320325009306">
+            <b>Token-Based Dynamic Bit-Width Assignment for ViT Quantization</b></a><br/>
+            <div class="pub-authors">Dohyung Kim*, <b>Jaehyeon Moon*</b>, Junghyup Lee, Geon Lee, Jeimin Jeon, and Bumsub Ham</div>
+            <div class="venue venue-journal">Pattern Recognition 2026<br/></div>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <img src="./fig/igq_vit.png" alt="IGQ-ViT teaser">
+          </div>
+    
+          <div class="pub-body">
+            <a href="https://cvlab.yonsei.ac.kr/projects/IGQ-ViT/">
+            <b>Instance-Aware Group Quantization for Vision Transformers</b></a><br/>
+            <div class="pub-authors"><b>Jaehyeon Moon</b>, Dohyung Kim, Junyong Cheon, and Bumsub Ham<br/></div>
+            <div class="venue venue-conf">CVPR 2024</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    
+    <h3>Co-author</h3>
+    <ul class="pub-list">
+      <li>
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <img src="./fig/accuquant.png" alt="AccuQuant teaser">
+          </div>
+
+          <div class="pub-body">
+            <a href="https://cvlab.yonsei.ac.kr/projects/AccuQuant/">
+            <b>AccuQuant: Simulating Multiple Denoising Steps for Quantizing Diffusion Models</b></a><br/>
+            <div class="pub-authors">Seunghoon Lee*, Jeongwoo Choi*, Byunggwan Son, <b>Jaehyeon Moon</b>, Jeimin Jeon, and Bumsub Ham<br/></div>
+            <div class="venue venue-conf">NeurIPS 2025</div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <img src="./fig/grad_quant.png" alt="Grad_quant teaser">
+          </div>
+
+          <div class="pub-body">
+            <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08921.pdf">
+            <b>Toward INT4 Fixed-Point Training via Exploring Quantization Error for Gradients</b></a><br/>
+            <div class="pub-authors">Dohyung Kim, Junghyup Lee, Jeimin Jeon, <b>Jaehyeon Moon</b>, and Bumsub Ham<br/></div>
+            <div class="venue venue-conf">ECCV 2024</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="pub-note">(*: Equal contribution)</div>
+
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <b>Research Engineer, Articron (TIPS Project)</b><br/>
+        <i>Aug. 2023 – Present</i><br/>
+        <ul>
+          <li>
+            Developed a hardware-aware PTQ framework for CNNs, including optimized LUT approximations for nonlinear activation functions.
+          </li>
+          <li>
+            Developing an LLM quantization framework supporting various PTQ methods and numerical formats (INT, FP, MXFP), targeting FPGA-based inference.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Patents</h2>
+    <h3>Granted</h3>
+    <ul>
+      <li>
+        <b>Quantization Apparatus and Method for Artificial Neural Networks and Image Processing Device Having the Same</b>
+        <span style="font-size:0.9em; color:#6b7280;"> (in Korean)</span><br/>
+        <i>Korean Patent No. 10-3028313, granted Sep. 2026</i><br/>
+        Bumsub Ham, <b>Jaehyeon Moon</b>, Dohyung Kim, and Junyong Cheon<br/>
+      </li>
+      <li>
+        <b>Quantization Apparatus and Method for Artificial Neural Networks and Image Processing Device Having the Same</b><br/>
+        <i>U.S. Patent No. 12,684,127, granted Jul. 2026</i><br/>
+        Bumsub Ham, <b>Jaehyeon Moon</b>, Dohyung Kim, and Junyong Cheon<br/>
+      </li>
+    </ul>
+
+    <h3>Applications</h3>
+    <ul>
+      <li>
+        <b>Quantization Method and Apparatus for Visual Autoregressive Model</b><br/>
+        <i>U.S. Patent Application No. 19/548,809, Apr. 2026</i><br/>
+        Bumsub Ham and <b>Jaehyeon Moon</b><br/>
+      </li>
+      <li>
+        <b>Quantization Method and Apparatus for Visual Autoregressive Model</b>
+        <span style="font-size:0.9em; color:#6b7280;"> (in Korean)</span><br/>
+        <i>Korean Patent Application No. 10-2026-0032167, Feb. 2026</i><br/>
+        Bumsub Ham and <b>Jaehyeon Moon</b><br/>
+      </li>
+      <li>
+        <b>Token-Based Quantization Apparatus and Method for Vision Transformers</b>
+        <span style="font-size:0.9em; color:#6b7280;"> (in Korean)</span><br/>
+        <i>Korean Patent Application No. 10-2024-0137421, Oct. 2024</i><br/>
+        Bumsub Ham, Dohyung Kim, Junghyup Lee, <b>Jaehyeon Moon</b>, Geon Lee, and Jeimin Jeon<br/>
+      </li>
+      <li>
+        <b>Quantization Apparatus and Method for Artificial Neural Networks</b>
+        <span style="font-size:0.9em; color:#6b7280;"> (in Korean)</span><br/>
+        <i>Korean Patent Application No. 10-2023-0116857, Sep. 2023</i><br/>
+        Bumsub Ham, Dohyung Kim, Junghyup Lee, Jeimin Jeon, and <b>Jaehyeon Moon</b><br/>
+      </li>
+    </ul>
+
+    <h2>Scholarships</h2>
+    <ul>
+      <li>
+        <b>National Scholarship for Science and Engineering</b><br/>
+        <i>Sep. 2018 – Feb. 2020</i>
+      </li>
+    </ul>
+
+    <!-- <footer class="meta" style="margin-top:40px;">
+      © <span id="y"></span> Jaehyeon Moon
+    </footer> -->
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
